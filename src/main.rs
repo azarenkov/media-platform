@@ -1,5 +1,4 @@
 use std::error::Error;
-
 use dotenv::dotenv;
 use media_platform::{config::Config, run};
 
