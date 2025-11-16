@@ -7,7 +7,6 @@ async fn main() -> Result<(), Box<dyn Error>> {
     dotenv().ok();
 
     let config = Config::default();
-
     run(&config).await?;
     Ok(())
 }
